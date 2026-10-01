@@ -1,7 +1,7 @@
 package fr.mathyslefebvre.frenchkitchen;
 
 import java.util.function.Function;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -55,7 +55,7 @@ public class ModItems {
     }
 
     public static void init() {
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(entries -> {
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(entries -> {
             entries.accept(TOMATO);
             entries.accept(LETTUCE);
             entries.accept(ONION);
@@ -69,7 +69,7 @@ public class ModItems {
             entries.accept(FRIED_EGG);
         });
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.NATURAL_BLOCKS).register(entries -> {
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.NATURAL_BLOCKS).register(entries -> {
             entries.accept(TOMATO_SEEDS);
             entries.accept(LETTUCE_SEEDS);
             entries.accept(ONION_SEEDS);

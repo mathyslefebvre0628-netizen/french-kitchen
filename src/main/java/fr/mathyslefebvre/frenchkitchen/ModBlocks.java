@@ -9,7 +9,6 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.PushReaction;
 
 public class ModBlocks {
     public static final Block TOMATO_CROP = register("tomato_crop", TomatoCropBlock::new, cropProperties());
@@ -18,7 +17,7 @@ public class ModBlocks {
 
     private static BlockBehaviour.Properties cropProperties() {
         return BlockBehaviour.Properties.of().noCollision().randomTicks().instabreak()
-                .sound(SoundType.CROP).pushReaction(PushReaction.DESTROY);
+                .sound(SoundType.CROP);
     }
 
     private static Block register(String name, Function<BlockBehaviour.Properties, Block> factory,
