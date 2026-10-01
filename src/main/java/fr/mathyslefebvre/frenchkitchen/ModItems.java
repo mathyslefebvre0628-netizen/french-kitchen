@@ -1,12 +1,14 @@
 package fr.mathyslefebvre.frenchkitchen;
 
 import java.util.function.Function;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 
 public class ModItems {
@@ -29,5 +31,16 @@ public class ModItems {
         return Registry.register(BuiltInRegistries.ITEM, key, factory.apply(props.setId(key)));
     }
 
-    public static void init() {}
+    public static void init() {
+        // Onglet "Nourriture et boissons" du mode Créatif
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FOOD_AND_DRINKS)
+                .register(entries -> {
+                    entries.accept(TOMATO);
+                    entries.accept(TOMATO_SLICE);
+                });
+
+        // Onglet "Blocs naturels" (les graines)
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.NATURAL_BLOCKS)
+                .register(entries -> entries.accept(TOMATO_SEEDS));
+    }
 }
