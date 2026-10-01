@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "french-kitchen",
+  "version": "${version}",
+  "name": "French Kitchen",
+  "description": "Food, preparation and realistic cooking for Minecraft.",
+  "authors": [
+    "Mathys Lefebvre"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/french-kitchen/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.mathyslefebvre.frenchkitchen.FrenchKitchen"
+    ],
+    "client": [
+      "fr.mathyslefebvre.frenchkitchen.client.FrenchKitchenClient"
+    ]
+  },
+  "mixins": [
+    "french-kitchen.mixins.json",
+    {
+      "config": "french-kitchen.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
