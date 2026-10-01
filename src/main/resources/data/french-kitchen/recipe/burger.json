@@ -1,0 +1,14 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:bread",
+  "french-kitchen:lettuce",
+  "french-kitchen:tomato_slice",
+  "minecraft:cooked_beef"
+ ],
+ "result": {
+  "id": "french-kitchen:burger",
+  "count": 1
+ }
+}

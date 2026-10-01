@@ -1,6 +1,6 @@
 {
-  "model": {
-    "type": "minecraft:model",
-    "model": "french-kitchen:item/tomato_seeds"
-  }
+ "model": {
+  "type": "minecraft:model",
+  "model": "french-kitchen:item/tomato_seeds"
+ }
 }

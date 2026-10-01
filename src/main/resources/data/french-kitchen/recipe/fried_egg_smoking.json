@@ -1,0 +1,10 @@
+{
+ "type": "minecraft:smoking",
+ "category": "food",
+ "ingredient": "minecraft:egg",
+ "experience": 0.35,
+ "cookingtime": 100,
+ "result": {
+  "id": "french-kitchen:fried_egg"
+ }
+}

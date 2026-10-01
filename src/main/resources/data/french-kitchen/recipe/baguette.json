@@ -1,0 +1,16 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "W",
+  "W",
+  "W"
+ ],
+ "key": {
+  "W": "minecraft:wheat"
+ },
+ "result": {
+  "id": "french-kitchen:baguette",
+  "count": 1
+ }
+}

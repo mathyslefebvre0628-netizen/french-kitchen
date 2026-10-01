@@ -1,0 +1,19 @@
+{
+ "item.french-kitchen.tomato": "Tomate",
+ "item.french-kitchen.tomato_slice": "Tranche de tomate",
+ "item.french-kitchen.lettuce": "Laitue",
+ "item.french-kitchen.onion": "Oignon",
+ "item.french-kitchen.tomato_seeds": "Graines de tomate",
+ "item.french-kitchen.lettuce_seeds": "Graines de laitue",
+ "item.french-kitchen.onion_seeds": "Graines d'oignon",
+ "item.french-kitchen.tomato_soup": "Soupe de tomate",
+ "item.french-kitchen.salad": "Salade",
+ "item.french-kitchen.sandwich": "Sandwich",
+ "item.french-kitchen.burger": "Burger",
+ "item.french-kitchen.baguette": "Baguette",
+ "item.french-kitchen.croissant": "Croissant",
+ "item.french-kitchen.fried_egg": "Œuf au plat",
+ "block.french-kitchen.tomato_crop": "Plant de tomate",
+ "block.french-kitchen.lettuce_crop": "Plant de laitue",
+ "block.french-kitchen.onion_crop": "Plant d'oignon"
+}

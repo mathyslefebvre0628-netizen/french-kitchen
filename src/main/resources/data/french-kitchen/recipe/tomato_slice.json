@@ -1,0 +1,11 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "french-kitchen:tomato"
+ ],
+ "result": {
+  "id": "french-kitchen:tomato_slice",
+  "count": 3
+ }
+}

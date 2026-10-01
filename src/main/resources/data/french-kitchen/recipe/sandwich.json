@@ -1,0 +1,14 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "french-kitchen:baguette",
+  "french-kitchen:lettuce",
+  "french-kitchen:tomato_slice",
+  "minecraft:cooked_chicken"
+ ],
+ "result": {
+  "id": "french-kitchen:sandwich",
+  "count": 1
+ }
+}

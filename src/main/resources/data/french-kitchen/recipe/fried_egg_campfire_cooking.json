@@ -1,0 +1,10 @@
+{
+ "type": "minecraft:campfire_cooking",
+ "category": "food",
+ "ingredient": "minecraft:egg",
+ "experience": 0.35,
+ "cookingtime": 600,
+ "result": {
+  "id": "french-kitchen:fried_egg"
+ }
+}

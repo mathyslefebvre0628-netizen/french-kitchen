@@ -1,0 +1,19 @@
+{
+ "item.french-kitchen.tomato": "Tomato",
+ "item.french-kitchen.tomato_slice": "Tomato Slice",
+ "item.french-kitchen.lettuce": "Lettuce",
+ "item.french-kitchen.onion": "Onion",
+ "item.french-kitchen.tomato_seeds": "Tomato Seeds",
+ "item.french-kitchen.lettuce_seeds": "Lettuce Seeds",
+ "item.french-kitchen.onion_seeds": "Onion Seeds",
+ "item.french-kitchen.tomato_soup": "Tomato Soup",
+ "item.french-kitchen.salad": "Salad",
+ "item.french-kitchen.sandwich": "Sandwich",
+ "item.french-kitchen.burger": "Burger",
+ "item.french-kitchen.baguette": "Baguette",
+ "item.french-kitchen.croissant": "Croissant",
+ "item.french-kitchen.fried_egg": "Fried Egg",
+ "block.french-kitchen.tomato_crop": "Tomato Plant",
+ "block.french-kitchen.lettuce_crop": "Lettuce Plant",
+ "block.french-kitchen.onion_crop": "Onion Plant"
+}
